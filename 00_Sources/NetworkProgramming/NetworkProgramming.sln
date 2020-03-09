@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "Intro\Intro.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTCPServerAndClient", "BasicTCPServerAndClient\BasicTCPServerAndClient.csproj", "{AC4C107F-F8BC-434F-9B77-6DCE5603126F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNetworkStream", "BasicNetworkStream\BasicNetworkStream.csproj", "{0470E43D-7664-4D9E-9051-DC1A33CA6056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AC4C107F-F8BC-434F-9B77-6DCE5603126F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4C107F-F8BC-434F-9B77-6DCE5603126F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4C107F-F8BC-434F-9B77-6DCE5603126F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0470E43D-7664-4D9E-9051-DC1A33CA6056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0470E43D-7664-4D9E-9051-DC1A33CA6056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0470E43D-7664-4D9E-9051-DC1A33CA6056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0470E43D-7664-4D9E-9051-DC1A33CA6056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
