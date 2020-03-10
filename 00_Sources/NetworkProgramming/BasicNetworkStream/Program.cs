@@ -16,7 +16,6 @@ namespace BasicNetworkStream
             Console.Write("Input mode key : ");
             string mode = Console.ReadLine();
 
-            string input;
             switch (mode)
             {
                 case "1":

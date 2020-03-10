@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNetworkStream", "Basic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStreamWriterAndReader", "BasicStreamWriterAndReader\BasicStreamWriterAndReader.csproj", "{CE9AA703-24F8-4EC3-BECB-85B0A5B5CC98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicBinaryWriterAndReader", "BasicBinaryWriterAndReader\BasicBinaryWriterAndReader.csproj", "{10E429E0-3A33-4E78-B5ED-DF72018B290F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CE9AA703-24F8-4EC3-BECB-85B0A5B5CC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE9AA703-24F8-4EC3-BECB-85B0A5B5CC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE9AA703-24F8-4EC3-BECB-85B0A5B5CC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E429E0-3A33-4E78-B5ED-DF72018B290F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E429E0-3A33-4E78-B5ED-DF72018B290F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E429E0-3A33-4E78-B5ED-DF72018B290F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E429E0-3A33-4E78-B5ED-DF72018B290F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
