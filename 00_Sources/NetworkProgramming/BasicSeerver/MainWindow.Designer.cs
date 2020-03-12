@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtServerIP = new System.Windows.Forms.TextBox();
-            this.btnConnnect = new System.Windows.Forms.Button();
+            this.btnEnable = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtClientIP = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
@@ -52,14 +52,14 @@
             this.txtServerIP.Size = new System.Drawing.Size(169, 21);
             this.txtServerIP.TabIndex = 1;
             // 
-            // btnConnnect
+            // btnEnable
             // 
-            this.btnConnnect.Location = new System.Drawing.Point(285, 10);
-            this.btnConnnect.Name = "btnConnnect";
-            this.btnConnnect.Size = new System.Drawing.Size(75, 23);
-            this.btnConnnect.TabIndex = 2;
-            this.btnConnnect.Text = "Connect";
-            this.btnConnnect.UseVisualStyleBackColor = true;
+            this.btnEnable.Location = new System.Drawing.Point(285, 10);
+            this.btnEnable.Name = "btnEnable";
+            this.btnEnable.Size = new System.Drawing.Size(75, 23);
+            this.btnEnable.TabIndex = 2;
+            this.btnEnable.Text = "Enable";
+            this.btnEnable.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -94,13 +94,14 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(372, 99);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.btnConnnect);
+            this.Controls.Add(this.btnEnable);
             this.Controls.Add(this.txtClientIP);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtServerIP);
             this.Controls.Add(this.label1);
             this.Name = "MainWindow";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,7 +111,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtServerIP;
-        private System.Windows.Forms.Button btnConnnect;
+        private System.Windows.Forms.Button btnEnable;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtClientIP;
         private System.Windows.Forms.Button btnStart;
